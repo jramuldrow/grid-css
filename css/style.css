@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(215, 238, 197);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    border-top: none;
+    border-right: none;
+    margin-top: 100px;
+    z-index: 0;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc
+   
+}
+
+.navBar {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(21, 155, 88);
+   /* margin-top: 50px; */
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.graph{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(60, 109, 66);
+
+}
+
+
+.item1 {
+    width: 80px;
+    height: 30%;
+    background-color: rgb(117, 155, 28);
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+    z-index: 1000;
+    margin: 0 40px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.item2 {
+    width: 80px;
+    height: 40%;
+    position: absolute;
+    background-color: rgb(117, 155, 28);
+    left: 20%;
+    bottom: 0px;
+    z-index: 1000;
+    margin: 0 40px;
+    box-shadow: 10px 10px 15px black;
+    
+}
+
+.item3 {
+    width: 80px;
+    height: 50%;
+    background-color: rgb(117, 155, 28);
+    position: absolute;
+    left: 30%;
+    bottom: 0px;
+    z-index: 1000;
+    margin: 0 40px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.item4 {
+    width: 80px;
+    height: 32%;
+    background-color: rgb(117, 155, 28);
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+    z-index: 1000;
+    margin: 0 40px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.item5 {
+    width: 80px;
+    height: 20%;
+    background-color: rgb(117, 155, 28);
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    z-index: 1000;
+    margin: 0 40px;
+    box-shadow: 10px 10px 15px black;
+}
