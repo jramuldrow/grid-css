@@ -4,7 +4,7 @@ body {
     align-items: center;
     display: grid;
 }
-
+/* grid container with one column and two rows*/
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -21,7 +21,7 @@ body {
     box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc
    
 }
-
+/*Navagation bar holds title of graph */
 .navBar {
     grid-column: 1;
     grid-row: 1;
@@ -31,7 +31,7 @@ body {
     font-weight: bold;
    
 }
-
+/* bar graph*/
 .graph{
     grid-column: 1;
     grid-row: 2;
@@ -39,7 +39,7 @@ body {
 
 }
 
-
+/*itmes are indivivual bars inside of graph */
 .item1 {
     width: 80px;
     height: 30%;
@@ -101,6 +101,7 @@ body {
     box-shadow: 10px 10px 15px black;
 }
 
+/* for small screens like moblie phones */
 @media (max-width: 300px) {
      .container {
         display: grid;
@@ -112,7 +113,7 @@ body {
         height: auto;
     }
 }
-
+/* small to mid size screens */
 @media (max-width: 750px) {
     .container {
        display: grid;
@@ -125,6 +126,7 @@ body {
    }
 }
 
+/* bigger screens */
 @media (max-width: 1000px) {
     .container {
        display: grid;
